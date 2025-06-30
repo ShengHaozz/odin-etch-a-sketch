@@ -1,0 +1,23 @@
+.outer-container {
+  border: 0.5px solid black;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: row;
+  aspect-ratio: 1/1;
+  width: 90%;
+  margin: auto;
+}
+
+.column-container {
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.cell {
+  aspect-ratio: 1/1;
+  width: 100%;
+  flex-grow: 1;
+}
